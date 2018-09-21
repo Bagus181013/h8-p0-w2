@@ -2,9 +2,10 @@
 // 1. Menyusun Barisan Bintang
 console.log( '1. ouput:')
 var rows1=5
-var a='*'
+var tampung=''
 for ( var i=0; i<rows1; i++){
-    console.log(a)
+    tampung='*'
+    console.log(tampung)
 }
 
 console.log() // buat jarak baris
@@ -27,8 +28,6 @@ console.log('3. ouput:')
 var rows1=5
 var tampung=''
 for ( var i=0; i<rows1; i++){
-    for ( var j=0; j<1;j++){
-        tampung+='*'
-    }
+    tampung+='*'
     console.log(tampung)
 }
