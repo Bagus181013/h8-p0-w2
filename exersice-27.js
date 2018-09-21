@@ -28,7 +28,7 @@ var rows1=5
 var tampung=''
 for ( var i=0; i<rows1; i++){
     for ( var j=0; j<1;j++){
-        tampung+='->'
+        tampung+='*'
     }
     console.log(tampung)
 }
