@@ -17,7 +17,7 @@ while ( a>2){
     a=a-2
     console.log(a+' ' +b+' '+c)
 }
-
+console.log()
 // 3. ANGKA GANJIL DAN GENAP
 var count=''
 for ( var i = 0; i< 100; i++){
