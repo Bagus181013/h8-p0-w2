@@ -33,18 +33,26 @@ console.log()
 
 // No.3
 function counter1(){
-    for(var i = 1; i <= 100; i=i+2){
-        if(i % 3 == 0){
-            console.log(i + ' Kelipatan 3');
+    var temp=-1
+    for(var i = 1; i <= 100; i++){
+        temp+=2
+        if ( temp%3 === 0){
+            console.log( temp + ' Kelipatan 3')
+        }else{
+            console.log(temp)
         }
     }
 }
 
 //No.3
 function counter2(){
-    for(var i = 1; i <= 100; i=i+5){
-        if(i % 6 == 0){
-            console.log(i + ' Kelipatan 6');
+    var temp=-4
+    for(var i = 1; i <= 100; i++){
+        temp+=5
+        if( temp % 6 == 0){
+            console.log(temp + ' Kelipatan 6');
+        }else{
+            console.log(temp)
         }
     }
 }
@@ -52,9 +60,13 @@ function counter2(){
 
 //No.3
 function counter3(){
-    for(var i = 1; i <= 100; i=i+9){
-        if(i % 10 == 0){
-            console.log(i + ' Kelipatan 10');
+    var temp=-8
+    for(var i = 1; i <= 100; i++){
+        temp+=9
+        if(temp % 10 == 0){
+            console.log( temp + ' Kelipatan 10');
+        }else{
+            console.log(temp)
         }
     }
 }
@@ -64,8 +76,10 @@ function br(){
 }
 
 //output
+
 counter1();
 br();
-counter2();
+counter2()
 br();
-counter3()
+counter3();
+br();
