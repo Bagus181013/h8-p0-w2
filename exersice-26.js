@@ -33,32 +33,32 @@ console.log()
 
 // No.3
 //LOOPING PERTAMA KELIPATAN 3
-for(var a = 1; a <=100; a+=2){
-	if(a%3 === 0){
-		console.log(a + " Kelipatan 3")
+for(var i = 1; i <=100; i+=2){
+	if(i%3 === 0){
+		console.log(i + " Kelipatan 3")
 	} else {
-		console.log(a)
+		console.log(i)
 	}
 }
 console.log()
 
 //LOOPING KEDUA KELIPATAN 6
-for(var b = 1; b<=100; b+= 5){
-	if(b%6 === 0){
-		console.log(b + " Kelipatan 6")
+for(var i = 1; i<=100; i+= 5){
+	if(i%6 === 0){
+		console.log(i + " Kelipatan 6")
 	} else {
-		console.log(b)
+		console.log(i)
 	}
 }
 console.log()
 
 //LOOPING KETIGA KELIPATAN 10
 
-for(var c = 1; c<=100; c+= 9){
+for(var i = 1; i<=100; i+= 9){
 	// console.log(c)
-	if(c%10 === 0){
-		console.log(c + " Kelipatan 10")
+	if(i%10 === 0){
+		console.log(i + " Kelipatan 10")
 	} else {
-		console.log(c)
+		console.log(i)
 	}
 }
