@@ -32,54 +32,33 @@ console.log()
 
 
 // No.3
-function counter1(){
-    var temp=-1
-    for(var i = 1; i <= 100; i++){
-        temp+=2
-        if ( temp%3 === 0){
-            console.log( temp + ' Kelipatan 3')
-        }else{
-            console.log(temp)
-        }
-    }
+//LOOPING PERTAMA KELIPATAN 3
+for(var a = 1; a <=100; a+=2){
+	if(a%3 === 0){
+		console.log(a + " Kelipatan 3")
+	} else {
+		console.log(a)
+	}
 }
+console.log()
 
-//No.3
-function counter2(){
-    var temp=-4
-    for(var i = 1; i <= 100; i++){
-        temp+=5
-        if( temp % 6 == 0){
-            console.log(temp + ' Kelipatan 6');
-        }else{
-            console.log(temp)
-        }
-    }
+//LOOPING KEDUA KELIPATAN 6
+for(var b = 1; b<=100; b+= 5){
+	if(b%6 === 0){
+		console.log(b + " Kelipatan 6")
+	} else {
+		console.log(b)
+	}
 }
+console.log()
 
+//LOOPING KETIGA KELIPATAN 10
 
-//No.3
-function counter3(){
-    var temp=-8
-    for(var i = 1; i <= 100; i++){
-        temp+=9
-        if(temp % 10 == 0){
-            console.log( temp + ' Kelipatan 10');
-        }else{
-            console.log(temp)
-        }
-    }
+for(var c = 1; c<=100; c+= 9){
+	// console.log(c)
+	if(c%10 === 0){
+		console.log(c + " Kelipatan 10")
+	} else {
+		console.log(c)
+	}
 }
-
-function br(){
-    console.log();
-}
-
-//output
-
-counter1();
-br();
-counter2()
-br();
-counter3();
-br();
