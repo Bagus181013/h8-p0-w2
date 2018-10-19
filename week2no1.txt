@@ -1,0 +1,84 @@
+Pseudocode Challenge
+
+
+1. Newton Second Law
+ALGORITMA NEWTON II
+---------------------------------------------------------------------------------
+1. Definisikan massa dengan nilai tertentu
+2. Definisikan percepatan dengan nilai tertentu
+3. Hitung gaya dengan mengalikan massa dan percepatan
+4. Tampilkan hasil perhitungan gaya
+
+PSEUDOCODE NEWTON II
+---------------------------------------------------------------------------------
+STORE 'massa' with any value
+STORE 'percepatan' with any value
+CALCULATE 'massa' times 'percepatan'
+SET gaya with calculate result
+DISPLAY result calculate gaya
+
+
+2. Tahun Kabisat
+ALGORITMA TAHUN KABISAT
+----------------------------------------------------------------------------------
+1. Definisikan tahun yang akan dicek kabisat apa bukan
+2. Check apakah tahun habis dibagi 4
+3. Jika tidak maka tampilkan tahun bukan tahun kabisat
+4. Jika iya maka check apakah tahun habis dibagi 100
+5. Jika tidak maka tampilkan tahun merupakan tahun kabisat
+6. Jika iya maka check apakah tahun habis dibagi 400
+7. Jika iya maka tampilkan tahun merupakan tahun kabisat
+8. Jika tidak maka tampillkan tahun bukan tahun kabisat
+
+PSEUDOCODE TAHUN KABISAT
+----------------------------------------------------------------------------------
+
+IF year mod 4 is 0 THEN
+    IF year mod 100 is 0 THEN
+        IF year mod 400 is 0 THEN
+            DISPLAY tahun kabisat
+        THEN ELSE
+            DISPLAY bukan tahun kabisat
+        END IF
+    THEN ELSE
+        DISPLAY tahun kabisat
+    END IF
+THEN ELSE
+    DISPLAY bukan tahun kabisat
+END IF
+
+
+3. Laundry Day
+ALGORITMA LAUNDRY DAY
+------------------------------------------------------------------------
+1. Kumpulkan semua baju dan taruh diember pertama
+2. Siapkan ember kedua untuk bantu perhitungan
+3. Ambil baju satu persatu dari ember pertama ke dalam ember kedua sambil dihitung
+   tiap kali naruh
+4. Lakukan terus hingga semua baju yang ada pada ember pertama habis dan jumlah
+   sudah sesuai
+
+PSEUDOCODE LAUNDRY DAY
+------------------------------------------------------------------------
+FOR t-shirt one to twelve
+    DISPLAY t-shirt
+END FOR
+
+
+4. Periksa Kuku
+ALGORITMA PERIKSA KUKU
+--------------------------------------------------------------
+1. Periksa kuku siswa dari 1 sampai 40
+2. Cek apakah siswa punya kuku panjang
+3. Jika iya maka hukum siswa
+4. jika tidak maka puji siswa
+
+PSEUDOCODE PERIKSA KUKU
+--------------------------------------------------------------
+FOR students one to fourty 
+  IF nail student is long THEN 
+    DISPLAY get punishment!!
+  ELSE THEN
+    DISPLAY get praise:)
+  END IF
+END FOR
